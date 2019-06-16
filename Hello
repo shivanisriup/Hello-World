@@ -1,0 +1,5 @@
+from tkinter import *
+scr=Tk()
+l=Label(scr,text='HELLO WORLD',font=('times',30,'bold'),bg='blue',fg='white')
+l.pack(side=BOTH,fill=X)
+scr.mainloop()
